@@ -1,0 +1,90 @@
+{
+  "name": "Gleam Dark",
+  "author": "realth000",
+  "editorScheme": "/theme/gleam-dark.xml",
+  "parentTheme": "Islands Dark",
+  "dark": true,
+  "colors": {
+    "background": "#292d3e",
+    "foreground": "#ffffffd8",
+    "accentColor": "#ffaff3",
+    "secondaryBackground": "#1F1F1F",
+    "hoverBackground": "#2F2F2F",
+    "selectionBackground": "#252938",
+    "borderColor": "#4f4f4f",
+    "disabledColor": "#5F5F5F",
+    "mutedForeground": "#8F8F8F",
+    "placeholderColor": "#9F9F9F",
+    "errorColor": "#FD6F6B",
+    "warningColor": "#FFD08F",
+    "successColor": "#b7d6a2",
+    "infoColor": "#6BCCCC",
+    "linkColor": "#D9ADFF",
+    "codeString": "#CE9178",
+    "codeKeyword": "#b180d7",
+    "highlightBackground": "#FF8F99",
+    "tooltipBackground": "#FFFA9F",
+    "overlayBackground": "#000000",
+    "placeholder1": "#ff0000",
+    "keyword": "#FFAFF3",
+    "placeholder0": "#ff0000"
+  },
+  "ui": {
+    "*": {
+      "background": "background",
+      "foreground": "foreground",
+      "selectionBackground": "selectionBackground",
+      "selectionForeground": "keyword",
+      "selectionInactiveBackground": "selectionBackground",
+      "selectionBackgroundInactive": "selectionBackground"
+    },
+    "Label.foreground": "#6796E6",
+    "Label.background": "#F6E9C9",
+    "Panel.background": "background",
+
+    "StatusBar.borderColor": "#ffffff00",
+    "ToolWindow.Stripe.borderColor": "#ffffff00",
+    "MainToolbar.borderColor": "#ffffff00",
+    "Island.borderColor": "background",
+
+    "EditorTabs": {
+      "background": "background",
+      "underlinedBorderColor": "keyword",
+      "underlinedTabBackground": "background",
+      "inactiveUnderlinedBorderColor": "background",
+      "inactiveUnderlinedTabBackground": "background"
+    }
+  },
+
+  "icons": {
+    "ColorPalette": {
+      "Actions.Blue": "#b1baf4",
+      "Actions.Green": "#b1f2a7",
+      "Actions.Grey": "#938aad",
+      "Actions.GreyInline.Dark": "#b1baf4",
+      "Actions.GreyInline": "#b1baf4",
+      "Actions.Red": "#e965a5",
+      "Actions.Yellow": "#ebde76",
+      "Objects.Blue": "#b1baf4",
+      "Objects.Green": "#b1f2a7",
+      "Objects.GreenAndroid": "#b1f2a7",
+      "Objects.Grey": "#938aad",
+      "Objects.Pink": "#e965a5",
+      "Objects.Purple": "#e192ef",
+      "Objects.Red": "#e965a5",
+      "Objects.RedStatus": "#ff6261",
+      "Objects.Yellow": "#ebde76",
+      "Objects.YellowDark": "#ebde76",
+      "Objects.BlackText": "#282433",
+      "Checkbox.Foreground.Selected.Dark": "foreground",
+      "Checkbox.Border.Default.Dark": "accentColor",
+      "Checkbox.Border.Selected.Dark": "accentColor",
+      "Checkbox.Border.Disabled.Dark": "disabledColor",
+      "Checkbox.Background.Default.Dark": "secondaryBackground",
+      "Checkbox.Background.Disabled.Dark": "background",
+      "Checkbox.Focus.Wide.Dark": "accentColor",
+      "Checkbox.Focus.Thin.Selected.Dark": "accentColor",
+      "Checkbox.Focus.Thin.Default.Dark": "accentColor"
+    }
+  }
+}
